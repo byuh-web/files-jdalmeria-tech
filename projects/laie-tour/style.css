@@ -65,6 +65,20 @@ main {
     padding: 30px;
 }
 
+main ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+main ul li {
+    background-image: url('images/bullet.webp');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
 /* Footer */
 footer {
     background-color: #0077b6;
