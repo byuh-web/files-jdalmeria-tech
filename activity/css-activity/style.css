@@ -1,0 +1,15 @@
+header, footer {
+    background-color: rgb(235, 240, 236);
+}
+
+#main {
+    color: green;
+}
+
+.links {
+    background-color: rgb(235, 240, 236);
+}
+
+main h3 {
+    color: green;
+}
