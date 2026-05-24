@@ -1,14 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #028a46;
+}
+
+a:hover {
+    color: #f73a00;
+    text-decoration: underline;
+}
+
 .beach-name {
     color: #0077b6;
     border-bottom: 2px solid #0077b6;
 }
 
 body {
+    background-color: #f0f8ff;
     font-family: 'Lato', sans-serif;
 }
 
 .highlight {
     color: #f77f00;
     font-weight: bold;
+}
+
+#top {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
