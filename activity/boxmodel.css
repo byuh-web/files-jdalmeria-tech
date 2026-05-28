@@ -1,0 +1,17 @@
+.card {
+    background-color: #f0ec01;
+    border: 3px solid navy;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 10px 30px;
+    width: 400px;
+}
+
+h2{
+    background-color: #f0f0ee;
+    border-radius: 5px;
+    padding: 10px;
+}
