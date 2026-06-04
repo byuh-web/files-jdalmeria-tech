@@ -1,0 +1,30 @@
+.black {
+    background-color: black;
+    color: white;
+    padding: .4rem;
+}
+
+.black-special {
+    background-color: #DA291C;
+    color: #f7c93c;
+    font-weight: bold;
+    grid-column: span 3;
+    letter-spacing: 2px;
+    padding: .4rem;
+    text-align: center;
+}
+
+.menu {
+    background-color: #e2dfdc;
+    border-radius: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: .7rem;
+    row-gap: 8px;
+}
+
+.yellow{
+    background-color: #f7c93c;
+    padding: .4rem;
+}
