@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 header {
     background-color: #3D4161;
     color: whitesmoke;
@@ -16,7 +19,7 @@ footer {
 
 nav ul{
     align-items: center;
-    background-color: #3D4161;
+    background-color: rgb(20, 13, 65);
     color: whitesmoke;
     display: flex;
     flex-direction: row;
