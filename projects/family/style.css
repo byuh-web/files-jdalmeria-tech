@@ -1,13 +1,16 @@
-
-.page-layout {
-  display: flex;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+article {
+  flex: 1;
+  min-width: 300px;
+}
 
 aside {
   width: 30%;
 }
-
 
 main {
   display: flex;
@@ -15,25 +18,34 @@ main {
   flex-wrap: wrap;
 }
 
-
-article {
-  flex: 1;
-  min-width: 300px;
+nav ul {
+  display: flex;
 }
 
+@media (max-width: 600px) {
+  
+}
 
 @media (max-width: 600px) {
 
-  .page-layout {
-    flex-direction: column;
+  aside {
+    width: 100%;
   }
 
   nav {
     flex-direction: column;
   }
 
-  aside {
-    width: 100%;
+  nav ul {
+    flex-direction: column;
   }
 
+  .page-layout {
+    flex-direction: column;
+  }
+
+}
+
+.page-layout {
+  display: flex;
 }
