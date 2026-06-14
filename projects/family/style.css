@@ -1,41 +1,39 @@
-/* Makes sidebar and main sit side by side */
+
 .page-layout {
-  display: ___;
+  display: flex;
 }
 
-/* Sidebar width */
+
 aside {
-  width: ___;
+  width: 30%;
 }
 
-/* Main takes remaining space, 
-   lines up articles, allows wrapping */
+
 main {
-  display: ___;
-  flex: ___;
-  flex-wrap: ___;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
-/* Each article shares space equally,
-   won't shrink below a readable width */
+
 article {
-  flex: ___;
-  min-width: ___;
+  flex: 1;
+  min-width: 300px;
 }
 
-/* Mobile — fires at your chosen breakpoint */
-@media (max-width: ___px) {
+
+@media (max-width: 600px) {
 
   .page-layout {
-    flex-direction: ___;
+    flex-direction: column;
   }
 
   nav {
-    flex-direction: ___;
+    flex-direction: column;
   }
 
   aside {
-    width: ___;
+    width: 100%;
   }
 
 }
