@@ -5,13 +5,17 @@
 
 article {
   background-color: whitesmoke;
+  border: 1px solid #C8873A;
+  border-radius: 8px;
   flex: 1;
+  margin: 1.5rem;
   min-width: 300px;
   overflow: hidden;
   padding: 15px;
 }
 
 article img {
+  border-radius: 8px 8px 0 0;
   height: 500px;
   object-fit: cover;
   width: 100%;
@@ -37,14 +41,24 @@ footer {
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   color: #C8873A;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
+h3 {
+  color: #4A3728;
+  font-size: 1.5rem;
+}
+
 header {
   background-color: #F9F6F0;
+  color: #4A3728;
   padding: 20px;
 }
 
@@ -92,5 +106,6 @@ nav ul a {
 }
 
 .page-layout {
+  align-items: stretch;
   display: flex;
 }
