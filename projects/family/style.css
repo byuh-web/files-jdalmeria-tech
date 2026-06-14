@@ -1,4 +1,7 @@
+
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -37,7 +40,9 @@ aside ul {
 
 body {
   background-color: #F9F6F0;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 figcaption {
@@ -78,6 +83,7 @@ img {
 }
 
 main {
+  align-items: flex-start;
   display: flex;
   flex: 1;
   flex-wrap: wrap;
@@ -89,24 +95,49 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 20px;          
+  gap: 20px;
+  justify-content: space-evenly;          
   list-style: none;
   padding: 10px 20px;
 }
 
 nav ul a {
   color: #F9F6F0;
+  display: block;
   text-decoration: none;
+  width: 100%;
+}
+
+nav ul a:hover {
+  background-color: #f9f6f0;
+  color: #4A3728;
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
 
   aside {
-    width: 100%;
+    margin: 1rem auto;
+    order: 2;
+    width: 95%;
+  }
+
+  main {
+    order: 1;
   }
 
   nav ul {
+    align-items: center;
     flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  nav ul li {
+    width: 100%;
   }
 
   .page-layout {
@@ -119,7 +150,13 @@ nav ul a {
   padding: 15px;
 }
 
+.nav-link {
+  color: #C8873A;
+  font-weight: bold;
+}
+
 .page-layout {
   align-items: stretch;
   display: flex;
+  flex: 1;
 }
