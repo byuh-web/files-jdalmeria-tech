@@ -6,10 +6,27 @@
 article {
   flex: 1;
   min-width: 300px;
+  padding: 15px;
+}
+
+article img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
 }
 
 aside {
+  padding: 20px;
   width: 30%;
+}
+
+body {
+  padding: 20px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 main {
@@ -20,6 +37,9 @@ main {
 
 nav ul {
   display: flex;
+  gap: 20px;          
+  list-style: none;
+  padding: 10px 20px;
 }
 
 @media (max-width: 600px) {
