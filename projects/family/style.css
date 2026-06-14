@@ -11,7 +11,7 @@ article {
   margin: 1.5rem;
   min-width: 300px;
   overflow: hidden;
-  padding: 15px;
+  padding: 0;
 }
 
 article img {
@@ -23,15 +23,25 @@ article img {
 
 aside {
   background-color: #4A3728;
+  border-radius: 8px;
   color: #F9F6F0;
   margin: 1rem;
   padding: 20px;
   width: 30%;
 }
 
+aside ul {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 body {
   background-color: #F9F6F0;
   padding: 20px;
+}
+
+figcaption {
+  padding-left: 10px;
 }
 
 footer {
@@ -103,6 +113,10 @@ nav ul a {
     flex-direction: column;
   }
 
+}
+
+.card-content {
+  padding: 15px;
 }
 
 .page-layout {
