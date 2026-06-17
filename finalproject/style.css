@@ -1,5 +1,39 @@
-/* this is for the home page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-.home-layout {
-    
+body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav ul a {
+
+}
+
+a {
+
 }
