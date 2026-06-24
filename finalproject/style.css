@@ -63,6 +63,7 @@ nav ul a:hover {
 }
 
 p {
+  line-height: 1.7;
   margin-bottom: 1rem;
 }
 
@@ -109,3 +110,4 @@ footer {
   font-size: 0.8rem;
   margin-top: 2rem;
 }
+
