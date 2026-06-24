@@ -114,17 +114,28 @@ footer {
 /* characters page */
 .card{
   background-color: #1c1c1c;
-  border: 5px solid;
+  border: 1px solid #ff220062;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  min-width: 220px;
   padding: 1rem;
 }
 
-.character-section{
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
+.card h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.card img {
+  border-radius: 4px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.card-container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
 }
