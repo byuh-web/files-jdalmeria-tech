@@ -260,3 +260,8 @@ button[type="submit"]:hover {
   object-position: top;
   width: 100%;
 }
+
+/* mobile view */
+@media (max-width: 600px) {
+  
+}
