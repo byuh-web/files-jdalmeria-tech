@@ -293,4 +293,8 @@ button[type="submit"]:hover {
   .card img {
     height: 250px;
   }
+
+  .fanzone-layout {
+    flex-direction: column;
+  }
 }
