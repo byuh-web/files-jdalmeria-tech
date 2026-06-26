@@ -285,4 +285,12 @@ button[type="submit"]:hover {
     height: 600px;
     width: 100%;
   }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 250px;
+  }
 }
