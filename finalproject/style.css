@@ -301,4 +301,12 @@ button[type="submit"]:hover {
   .fanzone-layout figure {
     max-height: 800px;
   }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
 }
