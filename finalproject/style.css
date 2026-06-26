@@ -270,4 +270,10 @@ button[type="submit"]:hover {
   nav ul {
     flex-direction: column;
   }
+
+  nav ul a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-align: center;
+  }
 }
