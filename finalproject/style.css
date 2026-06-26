@@ -163,3 +163,100 @@ footer {
   margin-bottom: 0.5rem;
   margin-top: 1.5rem;
 }
+
+/* fanzone page */
+.fanzone-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.fanzone-layout figure {
+  flex: 1;
+}
+
+.fanzone-layout figure img {
+  border-radius: 8px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.fanzone-layout form {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #2a2a2a;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+thead {
+  background-color: #ff2200;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1c1c1c;
+}
+
+input, select, textarea {
+  background-color: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #ff2200;
+  border: 2px solid #ff2200;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #ff2200;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.radio-group input {
+  width: auto;
+}
+
+.fanzone-layout figure {
+  flex: 1;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.fanzone-layout figure img {
+  border-radius: 8px;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}

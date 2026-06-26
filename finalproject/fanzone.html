@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rise of the Machines — a Terminator fan site exploring the films, characters, and the real AI conversation happening in 2026.">
     <link rel="stylesheet" href="style.css">
-    <title>Skynet & The Lore</title>
+    <title>Fan Zone</title>
 </head>
 <body>
     <header>
-        <h1>Skynet & The Lore</h1>
+        <h1>Fan Zone</h1>
     </header>
     <nav>
         <ul>
@@ -21,10 +21,104 @@
             <li class="current-menu-item"><a href="#" title="Fan Zone">Fan Zone</a></li>
         </ul>
     </nav>
-    <img src="images/skynet.webp" alt="Skynet" class="skynet-img">
     <main>
         <div class="fanzone-container">
-            <h2>Are you a fan of the Terminator series?</h2>
+            <h2>Fan Table</h2>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Film Title</th>
+                    <th>Release Year</th>
+                    <th>Director</th>
+                    <th>Main Villain</th>
+                    <th>My Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>The Terminator</td>
+                    <td>1984</td>
+                    <td>James Cameron</td>
+                    <td>T-800</td>
+                    <td>⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Terminator 2: Judgement Day</td>
+                    <td>1991</td>
+                    <td>James Cameron</td>
+                    <td>T-1000</td>
+                    <td>⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Terminator 3: Rise of the Machines</td>
+                    <td>2003</td>
+                    <td>Jonathan Mostow</td>
+                    <td>T-X</td>
+                    <td>⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Terminator Salvation</td>
+                    <td>2009</td>
+                    <td>McG</td>
+                    <td>Skynet / Marcus</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Terminator Genisys</td>
+                    <td>2015</td>
+                    <td>Alan Taylor</td>
+                    <td>Skynet / T-800</td>
+                    <td>⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Terminator: Dark Fate</td>
+                    <td>2019</td>
+                    <td>Tim Miller</td>
+                    <td>Rev-9</td>
+                    <td>⭐</td>
+                  </tr>
+                </tbody>
+            </table>
+            <div class="fanzone-layout">
+                <figure>
+                    <img src="images/fan.webp" alt="thumbs up with a fan">
+                </figure>
+                <form action="">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    <label for="film">Favorite Terminator Film</label>
+                    <select id="film" name="film">
+                      <option value="">-- Select a film --</option>
+                      <option value="t1">The Terminator (1984)</option>
+                      <option value="t2">Terminator 2: Judgment Day (1991)</option>
+                      <option value="t3">Terminator 3: Rise of the Machines (2003)</option>
+                      <option value="t4">Terminator Salvation (2009)</option>
+                      <option value="t5">Terminator Genisys (2015)</option>
+                      <option value="t6">Terminator: Dark Fate (2019)</option>
+                    </select>
+                    <label for="character">Favorite Character</label>
+                    <select id="character" name="character">
+                      <option value="">-- Select a character --</option>
+                      <option value="t800">T-800</option>
+                      <option value="t1000">T-1000</option>
+                      <option value="sarah">Sarah Connor</option>
+                      <option value="john">John Connor</option>
+                      <option value="kyle">Kyle Reese</option>
+                    </select>
+                    <label>Would you trust a fully autonomous AI weapon?</label>
+                    <div class="radio-group">
+                      <input type="radio" id="yes" name="ai-trust" value="yes">
+                      <label for="yes">Yes</label>
+                      <input type="radio" id="no" name="ai-trust" value="no">
+                      <label for="no">No</label>
+                      <input type="radio" id="notsure" name="ai-trust" value="notsure">
+                      <label for="notsure">Not Sure</label>
+                    </div>
+                    <label for="comments">Comments or Thoughts</label>
+                    <textarea id="comments" name="comments" rows="5" placeholder="Share your thoughts..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
         <p class="attribution">
             Lore and timeline information referenced from <a href="https://terminator.fandom.com" target="_blank">Terminator Wiki</a>. Image sourced from Pexels under free license.
